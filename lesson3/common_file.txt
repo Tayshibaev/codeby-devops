@@ -1,1 +1,0 @@
-branch_a and branch_b and branch_c

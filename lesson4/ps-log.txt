@@ -1,0 +1,497 @@
+Script started on 2025-04-19 22:31:17+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="116" LINES="53"]
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ ps aux
+[?2004lUSER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.3  23168 13784 ?        Ss   21:53   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    21:53   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    21:53   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-slub_flushwq]
+root           7  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/0:0H-events_highpri]
+root          11  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u16:0-ipv6_addrconf]
+root          12  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-mm_percpu_wq]
+root          13  0.0  0.0      0     0 ?        I    21:53   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    21:53   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    21:53   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    21:53   0:00 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    21:53   0:01 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    21:53   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          19  0.0  0.0      0     0 ?        S    21:53   0:00 [rcu_exp_gp_kthread_worker]
+root          20  0.0  0.0      0     0 ?        S    21:53   0:00 [migration/0]
+root          21  0.0  0.0      0     0 ?        S    21:53   0:00 [idle_inject/0]
+root          22  0.0  0.0      0     0 ?        S    21:53   0:00 [cpuhp/0]
+root          23  0.0  0.0      0     0 ?        S    21:53   0:00 [cpuhp/1]
+root          24  0.0  0.0      0     0 ?        S    21:53   0:00 [idle_inject/1]
+root          25  0.0  0.0      0     0 ?        S    21:53   0:00 [migration/1]
+root          26  0.0  0.0      0     0 ?        S    21:53   0:00 [ksoftirqd/1]
+root          28  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/1:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    21:53   0:00 [cpuhp/2]
+root          30  0.0  0.0      0     0 ?        S    21:53   0:00 [idle_inject/2]
+root          31  0.0  0.0      0     0 ?        S    21:53   0:00 [migration/2]
+root          32  0.0  0.0      0     0 ?        S    21:53   0:00 [ksoftirqd/2]
+root          33  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/2:0-events]
+root          34  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/2:0H-events_highpri]
+root          35  0.0  0.0      0     0 ?        S    21:53   0:00 [cpuhp/3]
+root          36  0.0  0.0      0     0 ?        S    21:53   0:00 [idle_inject/3]
+root          37  0.0  0.0      0     0 ?        S    21:53   0:00 [migration/3]
+root          38  0.0  0.0      0     0 ?        S    21:53   0:00 [ksoftirqd/3]
+root          39  0.1  0.0      0     0 ?        I    21:53   0:03 [kworker/3:0-events]
+root          40  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/3:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u17:0-events_unbound]
+root          43  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u19:0-events_unbound]
+root          45  0.0  0.0      0     0 ?        S    21:53   0:00 [kdevtmpfs]
+root          46  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-inet_frag_wq]
+root          47  0.0  0.0      0     0 ?        S    21:53   0:00 [kauditd]
+root          49  0.0  0.0      0     0 ?        S    21:53   0:00 [khungtaskd]
+root          50  0.0  0.0      0     0 ?        S    21:53   0:00 [oom_reaper]
+root          51  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u19:1-events_unbound]
+root          52  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-writeback]
+root          53  0.0  0.0      0     0 ?        S    21:53   0:00 [kcompactd0]
+root          54  0.0  0.0      0     0 ?        SN   21:53   0:00 [ksmd]
+root          55  0.0  0.0      0     0 ?        SN   21:53   0:00 [khugepaged]
+root          56  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-kintegrityd]
+root          57  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-kblockd]
+root          58  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-blkcg_punt_bio]
+root          59  0.0  0.0      0     0 ?        S    21:53   0:00 [irq/9-acpi]
+root          62  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-tpm_dev_wq]
+root          63  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-ata_sff]
+root          64  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-md]
+root          65  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-md_bitmap]
+root          66  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-edac-poller]
+root          67  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-devfreq_wq]
+root          68  0.0  0.0      0     0 ?        S    21:53   0:00 [watchdogd]
+root          70  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/1:1H-kblockd]
+root          71  0.0  0.0      0     0 ?        S    21:53   0:00 [kswapd0]
+root          72  0.0  0.0      0     0 ?        S    21:53   0:00 [ecryptfs-kthread]
+root          73  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/2:1-cgroup_destroy]
+root          74  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-kthrotld]
+root          75  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-acpi_thermal_pm]
+root          76  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u18:2-events_power_efficient]
+root          77  0.0  0.0      0     0 ?        S    21:53   0:00 [scsi_eh_0]
+root          78  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-scsi_tmf_0]
+root          79  0.0  0.0      0     0 ?        S    21:53   0:00 [scsi_eh_1]
+root          80  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-scsi_tmf_1]
+root          82  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u18:4-events_unbound]
+root          83  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-mld]
+root          84  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-ipv6_addrconf]
+root          85  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u16:1-ipv6_addrconf]
+root          92  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-kstrp]
+root          94  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/1:2-mm_percpu_wq]
+root          95  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/u21:0]
+root          96  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/u22:0]
+root          97  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/u23:0-ttm]
+root          98  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/u24:0-ttm]
+root          99  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/u25:0-ttm]
+root         112  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-charger_manager]
+root         113  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/0:1H-kblockd]
+root         137  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/3:1H-kblockd]
+root         140  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/2:1H-kblockd]
+root         168  0.0  0.0      0     0 ?        S    21:53   0:00 [scsi_eh_2]
+root         169  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-scsi_tmf_2]
+root         186  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u19:2-events_power_efficient]
+root         226  0.0  0.0      0     0 ?        S    21:53   0:00 [jbd2/sda2-8]
+root         227  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-ext4-rsv-conversion]
+root         276  0.0  0.4  67228 18268 ?        S<s  21:53   0:00 /usr/lib/systemd/systemd-journald
+root         344  0.0  0.2  30480  8288 ?        Ss   21:53   0:00 /usr/lib/systemd/systemd-udevd
+systemd+     400  0.0  0.1  17556  7632 ?        Ss   21:53   0:01 /usr/lib/systemd/systemd-oomd
+systemd+     414  0.0  0.3  21584 13164 ?        Ss   21:53   0:00 /usr/lib/systemd/systemd-resolved
+root         466  0.0  0.0      0     0 ?        S    21:53   0:00 [psimon]
+root         516  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/u17:3-events_unbound]
+root         573  0.0  0.0      0     0 ?        S    21:53   0:00 [irq/18-vmwgfx]
+root         576  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-ttm]
+root         593  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/R-cryptd]
+root         612  0.0  0.0      0     0 ?        I    21:53   0:00 [kworker/0:3-events]
+systemd+     764  0.0  0.1  91044  7704 ?        Ssl  21:53   0:00 /usr/lib/systemd/systemd-timesyncd
+avahi        844  0.0  0.1   8668  4572 ?        Ss   21:53   0:00 avahi-daemon: running [UbuntuGuiL4.local]
+message+     845  0.0  0.1  12164  6848 ?        Ss   21:53   0:01 @dbus-daemon --system --address=systemd: --nofork
+gnome-r+     848  0.0  0.4 512808 16428 ?        Ssl  21:53   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd      855  0.0  0.3 325920 12088 ?        Ssl  21:53   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         860  0.0  0.1 322044  7464 ?        Ssl  21:53   0:00 /usr/libexec/power-profiles-daemon
+root         865  0.0  0.7 1395428 30972 ?       Ssl  21:53   0:02 /usr/lib/snapd/snapd
+root         867  0.0  0.1 321960  7740 ?        Ssl  21:53   0:00 /usr/libexec/accounts-daemon
+root         870  0.0  0.0  18092  2796 ?        Ss   21:53   0:00 /usr/sbin/cron -f -P
+root         871  0.0  0.1 318388  6824 ?        Ssl  21:53   0:00 /usr/libexec/switcheroo-control
+root         882  0.0  0.2  18132  8800 ?        Ss   21:53   0:00 /usr/lib/systemd/systemd-logind
+root         885  0.0  0.3 543204 14324 ?        Ssl  21:53   0:00 /usr/libexec/udisks2/udisksd
+avahi        901  0.0  0.0   8480  1428 ?        S    21:53   0:00 avahi-daemon: chroot helper
+root         903  0.0  0.4 345096 18940 ?        Ssl  21:53   0:00 /usr/sbin/NetworkManager --no-daemon
+root         906  0.0  0.1  17380  6492 ?        Ss   21:53   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_su
+syslog       919  0.0  0.1 222588  5960 ?        Ssl  21:53   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         974  0.0  0.3 392096 12504 ?        Ssl  21:53   0:00 /usr/sbin/ModemManager
+root        1133  0.0  0.2  46868 11800 ?        Ss   21:53   0:00 /usr/sbin/cupsd -l
+root        1140  0.0  0.5 120912 22760 ?        Ssl  21:53   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/u
+cups-br+    1211  0.0  0.4 268344 19764 ?        Ssl  21:53   0:00 /usr/sbin/cups-browsed
+kernoops    1214  0.0  0.0  12744  2352 ?        Ss   21:53   0:00 /usr/sbin/kerneloops --test
+kernoops    1217  0.0  0.0  12744  2108 ?        Ss   21:53   0:00 /usr/sbin/kerneloops
+root        1723  0.1  0.0 283996  2012 ?        Sl   21:53   0:02 /usr/bin/VBoxDRMClient
+root        1725  0.0  0.0 290152  3404 ?        Sl   21:53   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-
+root        1785  0.0  0.0      0     0 ?        I<   21:53   0:00 [kworker/u23:1]
+root        2252  0.0  0.2 323492  9496 ?        Ssl  21:54   0:00 /usr/sbin/gdm3
+root        2264  0.0  0.0      0     0 ?        S    21:54   0:00 [psimon]
+rtkit       2312  0.0  0.0  22940  3304 ?        SNsl 21:54   0:00 /usr/libexec/rtkit-daemon
+colord      2415  0.0  0.3 328728 14380 ?        Ssl  21:54   0:00 /usr/libexec/colord
+root        2458  0.0  0.2 325352  9088 ?        Ssl  21:54   0:00 /usr/libexec/upowerd
+root        2726  0.0  0.0      0     0 ?        I<   21:54   0:00 [kworker/u25:1]
+root        2773  0.0  0.2 251252 10276 ?        Sl   21:54   0:00 gdm-session-worker [pam/gdm-password]
+admin       2785  0.0  0.3  21120 12420 ?        Ss   21:54   0:00 /usr/lib/systemd/systemd --user
+admin       2788  0.0  0.0  21456  3664 ?        S    21:54   0:00 (sd-pam)
+admin       2797  0.0  0.3 122088 12080 ?        S<sl 21:54   0:00 /usr/bin/pipewire
+admin       2798  0.0  0.1 106404  5920 ?        Ssl  21:54   0:00 /usr/bin/pipewire -c filter-chain.conf
+admin       2801  0.0  0.4 415580 18484 ?        S<sl 21:54   0:00 /usr/bin/wireplumber
+admin       2804  0.0  0.2 118632 11184 ?        S<sl 21:54   0:00 /usr/bin/pipewire-pulse
+admin       2815  0.0  0.1  10720  6520 ?        Ss   21:54   0:00 /usr/bin/dbus-daemon --session --address=systemd:
+admin       2819  0.0  0.2 325176  9892 ?        SLsl 21:54   0:00 /usr/bin/gnome-keyring-daemon --foreground --comp
+admin       2858  0.0  0.1 618960  7240 ?        Ssl  21:54   0:00 /usr/libexec/xdg-document-portal
+admin       2863  0.0  0.1 317976  5912 ?        Ssl  21:54   0:00 /usr/libexec/xdg-permission-store
+admin       2872  0.0  0.1 244336  6092 tty2     Ssl+ 21:54   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_
+admin       2883  0.0  0.4 306880 16336 tty2     Sl+  21:54   0:00 /usr/libexec/gnome-session-binary --session=ubunt
+root        2886  0.0  0.0   2704  1876 ?        Ss   21:54   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto
+admin       2965  0.0  0.1 162652  6880 ?        Ssl  21:54   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1
+admin       2967  0.0  0.1 100216  5464 ?        Ssl  21:54   0:00 /usr/libexec/gnome-session-ctl --monitor
+admin       2981  0.0  0.1 322948  7940 ?        Ssl  21:54   0:00 /usr/libexec/gvfsd
+admin       2989  0.0  0.1 468380  6744 ?        Sl   21:54   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+admin       2996  0.0  0.4 602864 17976 ?        Ssl  21:54   0:00 /usr/libexec/gnome-session-binary --systemd-servi
+admin       3022  0.6  9.5 4877624 383720 ?      Ssl  21:54   0:14 /usr/bin/gnome-shell
+admin       3023  0.0  0.1 382940  7824 ?        Sl   21:54   0:00 /usr/libexec/at-spi-bus-launcher --launch-immedia
+admin       3038  0.0  0.1   9480  4992 ?        S    21:54   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/def
+admin       3112  0.0  0.1 236068  7528 ?        Sl   21:54   0:00 /usr/libexec/at-spi2-registryd --use-gnome-sessio
+admin       3133  0.0  0.4 654860 17616 ?        Sl   21:54   0:00 /usr/libexec/gnome-shell-calendar-server
+admin       3141  0.0  2.2 769320 89080 ?        Ssl  21:54   0:00 /usr/libexec/evolution-source-registry
+admin       3150  0.0  0.6 2605764 26696 ?       Sl   21:54   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.
+admin       3157  0.0  0.3 397524 12240 ?        Ssl  21:54   0:00 /usr/bin/ibus-daemon --panel disable
+admin       3158  0.0  0.1 392188  6464 ?        Ssl  21:54   0:00 /usr/libexec/gsd-a11y-settings
+admin       3167  0.0  0.5 421576 20468 ?        Ssl  21:54   0:00 /usr/libexec/gsd-color
+admin       3170  0.0  0.3 440336 12276 ?        Ssl  21:54   0:00 /usr/libexec/gsd-datetime
+admin       3171  0.0  0.1 467412  7824 ?        Ssl  21:54   0:00 /usr/libexec/gsd-housekeeping
+admin       3172  0.0  0.4 494168 19932 ?        Ssl  21:54   0:00 /usr/libexec/gsd-keyboard
+admin       3173  0.0  0.6 750316 25192 ?        Ssl  21:54   0:00 /usr/libexec/gsd-media-keys
+admin       3175  0.0  0.5 605932 23820 ?        Ssl  21:54   0:00 /usr/libexec/gsd-power
+admin       3177  0.0  0.2 332296 11388 ?        Ssl  21:54   0:00 /usr/libexec/gsd-print-notifications
+admin       3180  0.0  0.1 539752  6624 ?        Ssl  21:54   0:00 /usr/libexec/gsd-rfkill
+admin       3207  0.0  0.1 318228  6240 ?        Ssl  21:54   0:00 /usr/libexec/gsd-screensaver-proxy
+admin       3210  0.0  0.2 478124 11348 ?        Ssl  21:54   0:00 /usr/libexec/gsd-sharing
+admin       3214  0.0  0.2 468220  8100 ?        Ssl  21:54   0:00 /usr/libexec/gsd-smartcard
+admin       3215  0.0  0.2 402308  9672 ?        Ssl  21:54   0:00 /usr/libexec/gsd-sound
+admin       3218  0.0  0.5 495140 20564 ?        Ssl  21:54   0:00 /usr/libexec/gsd-wacom
+admin       3220  0.0  0.1 305624  7504 ?        Sl   21:54   0:00 /usr/libexec/gsd-disk-utility-notify
+admin       3242  0.0  0.2 545452 11472 ?        Ssl  21:54   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+admin       3263  0.0  2.7 1000272 109172 ?      Sl   21:54   0:00 /usr/libexec/evolution-data-server/evolution-alar
+admin       3303  0.0  0.0  28604  1652 ?        S    21:54   0:00 /usr/bin/VBoxClient --clipboard
+admin       3305  0.0  1.4 260928 59304 ?        Sl   21:54   0:00 /usr/bin/VBoxClient --clipboard
+admin       3338  0.0  0.3 424876 15208 ?        Sl   21:54   0:00 /usr/libexec/gsd-printer
+admin       3341  0.0  0.1 319136  7328 ?        Sl   21:54   0:00 /usr/libexec/ibus-dconf
+admin       3348  0.1  0.7 430172 29540 ?        Sl   21:54   0:02 /usr/libexec/ibus-extension-gtk3
+admin       3352  0.0  0.1 319096  7108 ?        Sl   21:54   0:00 /usr/libexec/ibus-portal
+admin       3355  0.0  0.1 398044  7972 ?        Ssl  21:54   0:00 /usr/libexec/gvfs-afc-volume-monitor
+admin       3367  0.0  0.6 555248 24104 ?        Sl   21:54   0:00 /usr/libexec/goa-daemon
+admin       3393  0.0  0.1 319428  6628 ?        Ssl  21:54   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+admin       3413  0.0  0.6 899396 24296 ?        Ssl  21:54   0:00 /usr/libexec/evolution-calendar-factory
+admin       3422  0.0  0.2 397796  9248 ?        Sl   21:54   0:00 /usr/libexec/goa-identity-service
+admin       3427  0.0  0.1 318460  6464 ?        Ssl  21:54   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+admin       3435  0.0  0.1 318440  6320 ?        Ssl  21:54   0:00 /usr/libexec/gvfs-goa-volume-monitor
+admin       3441  0.0  1.5 226976 63928 ?        S    21:54   0:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx 
+admin       3451  0.0  0.7 834100 30028 ?        Ssl  21:54   0:00 /usr/libexec/evolution-addressbook-factory
+admin       3491  0.0  0.1 245440  7160 ?        Sl   21:54   0:00 /usr/libexec/ibus-engine-simple
+admin       3515  0.0  0.1 230108  5596 ?        Ssl  21:54   0:00 /usr/libexec/dconf-service
+admin       3522  0.0  0.1 244972  6408 ?        Ssl  21:54   0:00 /usr/libexec/gvfsd-metadata
+admin       3523  0.0  0.2 544380  9008 ?        Sl   21:54   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk
+admin       3580  0.0  2.0 632664 80180 ?        Ssl  21:54   0:00 /usr/libexec/gsd-xsettings
+admin       3619  0.0  0.2  39128 11764 ?        Ss   21:54   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd
+admin       3679  0.0  0.7 429604 30356 ?        Sl   21:54   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd
+admin       3683  0.0  0.6 2605824 27164 ?       Sl   21:54   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.
+admin       3699  0.0  0.3 710280 13984 ?        Ssl  21:54   0:00 /usr/libexec/xdg-desktop-portal
+admin       3734  0.0  0.6 275788 24648 ?        Sl   21:54   0:00 /usr/libexec/ibus-x11
+admin       3739  0.0  0.7 743508 29708 ?        SNsl 21:54   0:00 /usr/libexec/tracker-miner-fs-3
+admin       3750  0.0  2.4 1404416 98256 ?       Sl   21:54   0:00 /usr/libexec/mutter-x11-frames
+admin       3752  0.0  0.0  28604  1664 ?        S    21:54   0:00 /usr/bin/VBoxClient --seamless
+admin       3753  0.1  0.0 226892  3292 ?        Sl   21:54   0:02 /usr/bin/VBoxClient --seamless
+admin       3760  0.0  0.0  28604  1664 ?        S    21:54   0:00 /usr/bin/VBoxClient --draganddrop
+admin       3761  0.6  0.0 227408  3064 ?        Sl   21:54   0:13 /usr/bin/VBoxClient --draganddrop
+admin       3766  0.0  2.1 954732 87452 ?        Ssl  21:54   0:00 /usr/libexec/xdg-desktop-portal-gnome
+admin       3773  0.0  0.0  28604  1656 ?        S    21:54   0:00 /usr/bin/VBoxClient --vmsvga-session
+admin       3774  0.0  0.0 160708  2500 ?        Sl   21:54   0:00 /usr/bin/VBoxClient --vmsvga-session
+admin       3821  0.0  0.6 426424 26188 ?        Ssl  21:54   0:00 /usr/libexec/xdg-desktop-portal-gtk
+admin       3858  0.0  1.3 562584 52448 ?        Ssl  21:54   0:00 /usr/libexec/gnome-terminal-server
+admin       3865  0.0  0.1  19692  5100 pts/0    Ss+  21:54   0:00 bash
+root        3916  0.0  0.2  12020  8044 ?        Ss   21:54   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 st
+root        3917  0.0  0.2  15268  8944 ?        Ss   21:54   0:00 sshd: admin [priv]
+admin       3986  0.0  0.1  15428  7084 ?        S    21:55   0:00 sshd: admin@pts/1
+admin       3987  0.0  0.1  19736  5264 pts/1    Ss   21:55   0:00 -bash
+root        4071  0.0  0.0      0     0 ?        I<   21:55   0:00 [kworker/R-tls-strp]
+admin       4076  0.0  0.8 577472 32908 ?        Sl   21:55   0:00 /usr/bin/update-notifier
+root        4147  0.0  0.0      0     0 ?        I<   21:59   0:00 [kworker/u24:1]
+root        4156  0.0  0.0      0     0 ?        I    21:59   0:00 [kworker/u20:4-events_freezable_pwr_efficient]
+root        4159  0.0  0.0      0     0 ?        I    22:00   0:00 [kworker/3:2-cgroup_destroy]
+root        4166  0.0  0.0      0     0 ?        I    22:04   0:00 [kworker/u20:1-flush-8:0]
+root        4179  0.0  0.0      0     0 ?        I    22:10   0:00 [kworker/1:0]
+root        4180  0.0  0.0      0     0 ?        I    22:10   0:00 [kworker/u20:0-flush-8:0]
+root        4193  0.0  0.0      0     0 ?        I    22:20   0:00 [kworker/0:1]
+root        4194  0.0  0.0      0     0 ?        I    22:20   0:00 [kworker/u18:0-events_power_efficient]
+root        4207  0.0  0.0      0     0 ?        I    22:30   0:00 [kworker/2:2-mm_percpu_wq]
+admin       4208  0.0  0.0  16972  2312 pts/1    S+   22:31   0:00 script ps-log.txt
+admin       4209  0.0  0.1  19680  5012 pts/2    Ss   22:31   0:00 bash -i
+admin       4216  0.3  0.7 409056 29776 ?        SNl  22:31   0:00 /usr/libexec/tracker-extract-3 --socket-fd 3
+admin       4222  0.0  0.1  22284  4552 pts/2    R+   22:31   0:00 ps aux
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ ps aux[K[K[K-u admin
+[?2004l    PID TTY          TIME CMD
+   2785 ?        00:00:00 systemd
+   2788 ?        00:00:00 (sd-pam)
+   2797 ?        00:00:00 pipewire
+   2798 ?        00:00:00 pipewire
+   2801 ?        00:00:00 wireplumber
+   2804 ?        00:00:00 pipewire-pulse
+   2815 ?        00:00:00 dbus-daemon
+   2819 ?        00:00:00 gnome-keyring-d
+   2858 ?        00:00:00 xdg-document-po
+   2863 ?        00:00:00 xdg-permission-
+   2872 tty2     00:00:00 gdm-wayland-ses
+   2883 tty2     00:00:00 gnome-session-b
+   2965 ?        00:00:00 gcr-ssh-agent
+   2967 ?        00:00:00 gnome-session-c
+   2981 ?        00:00:00 gvfsd
+   2989 ?        00:00:00 gvfsd-fuse
+   2996 ?        00:00:00 gnome-session-b
+   3022 ?        00:00:14 gnome-shell
+   3023 ?        00:00:00 at-spi-bus-laun
+   3038 ?        00:00:00 dbus-daemon
+   3112 ?        00:00:00 at-spi2-registr
+   3133 ?        00:00:00 gnome-shell-cal
+   3141 ?        00:00:00 evolution-sourc
+   3150 ?        00:00:00 gjs
+   3157 ?        00:00:00 ibus-daemon
+   3158 ?        00:00:00 gsd-a11y-settin
+   3167 ?        00:00:00 gsd-color
+   3170 ?        00:00:00 gsd-datetime
+   3171 ?        00:00:00 gsd-housekeepin
+   3172 ?        00:00:00 gsd-keyboard
+   3173 ?        00:00:00 gsd-media-keys
+   3175 ?        00:00:00 gsd-power
+   3177 ?        00:00:00 gsd-print-notif
+   3180 ?        00:00:00 gsd-rfkill
+   3207 ?        00:00:00 gsd-screensaver
+   3210 ?        00:00:00 gsd-sharing
+   3214 ?        00:00:00 gsd-smartcard
+   3215 ?        00:00:00 gsd-sound
+   3218 ?        00:00:00 gsd-wacom
+   3220 ?        00:00:00 gsd-disk-utilit
+   3242 ?        00:00:00 gvfs-udisks2-vo
+   3263 ?        00:00:00 evolution-alarm
+   3303 ?        00:00:00 VBoxClient
+   3305 ?        00:00:00 VBoxClient
+   3338 ?        00:00:00 gsd-printer
+   3341 ?        00:00:00 ibus-dconf
+   3348 ?        00:00:02 ibus-extension-
+   3352 ?        00:00:00 ibus-portal
+   3355 ?        00:00:00 gvfs-afc-volume
+   3367 ?        00:00:00 goa-daemon
+   3393 ?        00:00:00 gvfs-gphoto2-vo
+   3413 ?        00:00:00 evolution-calen
+   3422 ?        00:00:00 goa-identity-se
+   3427 ?        00:00:00 gvfs-mtp-volume
+   3435 ?        00:00:00 gvfs-goa-volume
+   3441 ?        00:00:01 Xwayland
+   3451 ?        00:00:00 evolution-addre
+   3491 ?        00:00:00 ibus-engine-sim
+   3515 ?        00:00:00 dconf-service
+   3522 ?        00:00:00 gvfsd-metadata
+   3523 ?        00:00:00 gvfsd-trash
+   3580 ?        00:00:00 gsd-xsettings
+   3619 ?        00:00:00 snapd-desktop-i
+   3679 ?        00:00:00 snapd-desktop-i
+   3683 ?        00:00:00 gjs
+   3699 ?        00:00:00 xdg-desktop-por
+   3734 ?        00:00:00 ibus-x11
+   3739 ?        00:00:00 tracker-miner-f
+   3750 ?        00:00:00 mutter-x11-fram
+   3752 ?        00:00:00 VBoxClient
+   3753 ?        00:00:02 VBoxClient
+   3760 ?        00:00:00 VBoxClient
+   3761 ?        00:00:14 VBoxClient
+   3766 ?        00:00:00 xdg-desktop-por
+   3773 ?        00:00:00 VBoxClient
+   3774 ?        00:00:00 VBoxClient
+   3821 ?        00:00:00 xdg-desktop-por
+   3858 ?        00:00:00 gnome-terminal-
+   3865 pts/0    00:00:00 bash
+   3986 ?        00:00:00 sshd
+   3987 pts/1    00:00:00 bash
+   4076 ?        00:00:00 update-notifier
+   4208 pts/1    00:00:00 script
+   4209 pts/2    00:00:00 bash
+   4232 pts/2    00:00:00 ps
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ top
+[?2004l[?1h=[?25l[H[2J(B[mtop - 22:33:12 up 39 min,  2 users,  load average: 0.31, 0.07, 0.02(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 232 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 231 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  2.4 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 95.2 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  2.4 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3914.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1993.7 (B[m[39;49mfree,(B[m[39;49m[1m   1131.0 (B[m[39;49mused,(B[m[39;49m[1m   1041.1 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   2783.9 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                      (B[m[39;49m[K
+(B[m    855 polkitd   20   0  325920  12088   8208 S   9.1   0.3   0:00.82 polkitd                                      (B[m[39;49m[K
+(B[m      1 root      20   0   23168  13784   9304 S   0.0   0.3   0:02.00 systemd                                      (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd                                     (B[m[39;49m[K
+(B[m      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_workqueue_release                       (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_gp                             (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-sync_wq                            (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-slub_flushwq                       (B[m[39;49m[K
+(B[m      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-netns                              (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri                  (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/u16:0-ipv6_addrconf                  (B[m[39;49m[K
+(B[m     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mm_percpu_wq                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_kthread                            (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_rude_kthread                       (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_trace_kthread                      (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.06 ksoftirqd/0                                  (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 I   0.0   0.0   0:01.04 rcu_preempt                                  (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp_par_gp_kthread_worker/0              (B[m[39;49m[K
+(B[m     19 root      20   0       0      0      0 S   0.0   0.0   0:00.05 rcu_exp_gp_kthread_worker                    (B[m[39;49m[K
+(B[m     20 root      rt   0       0      0      0 S   0.0   0.0   0:00.08 migration/0                                  (B[m[39;49m[K
+(B[m     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                (B[m[39;49m[K
+(B[m     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                      (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                      (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 migration/1                                  (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0.0   0.0   0:00.10 ksoftirqd/1                                  (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-events_highpri                  (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                      (B[m[39;49m[K
+(B[m     30 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                (B[m[39;49m[K
+(B[m     31 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 migration/2                                  (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0.0   0.0   0:00.07 ksoftirqd/2                                  (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 I   0.0   0.0   0:00.05 kworker/2:0-events                           (B[m[39;49m[K
+(B[m     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-events_highpri                  (B[m[39;49m[K
+(B[m     35 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3                                      (B[m[39;49m[K
+(B[m     36 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3                                (B[m[39;49m[K
+(B[m     37 root      rt   0       0      0      0 S   0.0   0.0   0:00.32 migration/3                                  (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0.0   0.0   0:00.13 ksoftirqd/3                                  (B[m[39;49m[K
+(B[m     39 root      20   0       0      0      0 I   0.0   0.0   0:03.22 kworker/3:0-events                           (B[m[39;49m[K
+(B[m     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-events_highpri                  (B[m[39;49m[K
+(B[m     41 root      20   0       0      0      0 I   0.0   0.0   0:00.03 kworker/u17:0-events_unbound                 (B[m[39;49m[K
+(B[m     43 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker/u19:0-events_unbound                 (B[m[39;49m[K
+(B[m     45 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                                    (B[m[39;49m[K
+(B[m     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-inet_frag_wq                       (B[m[39;49m[K
+(B[m     47 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd                                      (B[m[39;49m[K
+(B[m     49 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungtaskd                                   (B[m[39;49m[K
+(B[m     50 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper                                   (B[m[39;49m[K
+(B[m     51 root      20   0       0      0      0 I   0.0   0.0   0:00.10 kworker/u19:1-events_unbound                 (B[m[39;49m[K[H(B[mtop - 22:33:15 up 39 min,  2 users,  load average: 0.28, 0.06, 0.02(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 233 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 232 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.1 (B[m[39;49mus,(B[m[39;49m[1m  0.4 (B[m[39;49msy,(B[m[39;49m[1m  0.3 (B[m[39;49mni,(B[m[39;49m[1m 98.8 (B[m[39;49mid,(B[m[39;49m[1m  0.1 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3914.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1993.1 (B[m[39;49mfree,(B[m[39;49m[1m   1131.2 (B[m[39;49mused,(B[m[39;49m[1m   1041.6 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   2783.7 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   3739 admin     39  19  816984  30512  18624 S   1.7   0.8   0:00.43 tracker-miner-f                              (B[m[39;49m[K
+(B[m   4243 admin     39  19  482988  30068  24564 S   1.0   0.8   0:00.03 tracker-extract                              (B[m[39;49m[K
+(B[m   3761 admin     20   0  227408   3064   2780 S   0.7   0.1   0:14.39 VBoxClient                                   (B[m[39;49m[K
+(B[m     39 root      20   0       0      0      0 I   0.3   0.0   0:03.23 kworker/3:0-mm_percpu_wq                     (B[m[39;49m[K
+(B[m    867 root      20   0  321960   7740   6972 S   0.3   0.2   0:00.26 accounts-daemon                              (B[m[39;49m[K
+(B[m   1723 root      20   0  283996   2012   1884 S   0.3   0.1   0:02.83 VBoxDRMClient                                (B[m[39;49m[K
+(B[m   3022 admin     20   0 4877624 383720 137196 S   0.3   9.6   0:14.85 gnome-shell                                  (B[m[39;49m[K
+(B[m   3441 admin     20   0  226976  63928  51944 S   0.3   1.6   0:01.88 Xwayland                                     (B[m[39;49m[K
+(B[m[1m   4241 admin     20   0   23228   5820   3644 R   0.3   0.1   0:00.02 top                                          (B[m[39;49m[K
+(B[m      1 root      20   0   23168  13784   9304 S   0.0   0.3   0:02.00 systemd                                      (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd                                     (B[m[39;49m[K
+(B[m      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_workqueue_release                       (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_gp                             (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-sync_wq                            (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-slub_flushwq                       (B[m[39;49m[K
+(B[m      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-netns                              (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri                  (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/u16:0-ipv6_addrconf                  (B[m[39;49m[K
+(B[m     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mm_percpu_wq                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_kthread                            (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_rude_kthread                       (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_trace_kthread                      (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.06 ksoftirqd/0                                  (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 I   0.0   0.0   0:01.04 rcu_preempt                                  (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp_par_gp_kthread_worker/0              (B[m[39;49m[K
+(B[m     19 root      20   0       0      0      0 S   0.0   0.0   0:00.05 rcu_exp_gp_kthread_worker                    (B[m[39;49m[K
+(B[m     20 root      rt   0       0      0      0 S   0.0   0.0   0:00.08 migration/0                                  (B[m[39;49m[K
+(B[m     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                (B[m[39;49m[K
+(B[m     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                      (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                      (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 migration/1                                  (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0.0   0.0   0:00.10 ksoftirqd/1                                  (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-events_highpri                  (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                      (B[m[39;49m[K
+(B[m     30 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                (B[m[39;49m[K
+(B[m     31 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 migration/2                                  (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0.0   0.0   0:00.07 ksoftirqd/2                                  (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 I   0.0   0.0   0:00.05 kworker/2:0-events                           (B[m[39;49m[K
+(B[m     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-events_highpri                  (B[m[39;49m[K
+(B[m     35 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3                                      (B[m[39;49m[K
+(B[m     36 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3                                (B[m[39;49m[K
+(B[m     37 root      rt   0       0      0      0 S   0.0   0.0   0:00.32 migration/3                                  (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0.0   0.0   0:00.13 ksoftirqd/3                                  (B[m[39;49m[K
+(B[m     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-events_highpri                  (B[m[39;49m[K
+(B[m     41 root      20   0       0      0      0 I   0.0   0.0   0:00.03 kworker/u17:0-events_unbound                 (B[m[39;49m[K[H(B[mtop - 22:33:18 up 39 min,  2 users,  load average: 0.26, 0.06, 0.02(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.4 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.1 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.3 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m (B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   3914.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1993.1 (B[m[39;49mfree,(B[m[39;49m[1m   1131.1 (B[m[39;49mused,(B[m[39;49m[1m   1041.7 (B[m[39;49mbuff/cache(B[m[39;49m(B[m (B[m[39;49m(B[m    (B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m      0.0 (B[m[39;49mtotal,(B[m[39;49m[1m      0.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   2783.8 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m   3022 admin     20   0 4877624 383848 137196 S   1.3   9.6   0:14.89 gnome-shell                                  (B[m[39;49m[K
+(B[m   3753 admin     20   0  226892   3292   2880 S   0.7   0.1   0:02.81 VBoxClient                                   (B[m[39;49m[K
+(B[m   3761 admin     20   0  227408   3064   2780 S   0.7   0.1   0:14.41 VBoxClient                                   (B[m[39;49m[K
+(B[m   3766 admin     20   0  954732  87452  70172 S   0.3   2.2   0:00.24 xdg-desktop-por                              (B[m[39;49m[K
+(B[m   3774 admin     20   0  160708   2500   2216 S   0.3   0.1   0:00.66 VBoxClient                                   (B[m[39;49m[K
+(B[m[1m   4241 admin     20   0   23228   5820   3644 R   0.3   0.1   0:00.03 top                                          (B[m[39;49m[K
+(B[m      1 root      20   0   23168  13784   9304 S   0.0   0.3   0:02.00 systemd                                      (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0   0:00.01 kthreadd                                     (B[m[39;49m[K
+(B[m      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_workqueue_release                       (B[m[39;49m[K
+(B[m      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-rcu_gp                             (B[m[39;49m[K
+(B[m      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-sync_wq                            (B[m[39;49m[K
+(B[m      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-slub_flushwq                       (B[m[39;49m[K
+(B[m      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-netns                              (B[m[39;49m[K
+(B[m     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri                  (B[m[39;49m[K
+(B[m     11 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker/u16:0-ipv6_addrconf                  (B[m[39;49m[K
+(B[m     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/R-mm_percpu_wq                       (B[m[39;49m[K
+(B[m     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_kthread                            (B[m[39;49m[K
+(B[m     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_rude_kthread                       (B[m[39;49m[K
+(B[m     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tasks_trace_kthread                      (B[m[39;49m[K
+(B[m     16 root      20   0       0      0      0 S   0.0   0.0   0:00.06 ksoftirqd/0                                  (B[m[39;49m[K
+(B[m     17 root      20   0       0      0      0 I   0.0   0.0   0:01.04 rcu_preempt                                  (B[m[39;49m[K
+(B[m     18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_exp_par_gp_kthread_worker/0              (B[m[39;49m[K
+(B[m     19 root      20   0       0      0      0 S   0.0   0.0   0:00.05 rcu_exp_gp_kthread_worker                    (B[m[39;49m[K
+(B[m     20 root      rt   0       0      0      0 S   0.0   0.0   0:00.08 migration/0                                  (B[m[39;49m[K
+(B[m     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                                (B[m[39;49m[K
+(B[m     22 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                                      (B[m[39;49m[K
+(B[m     23 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                                      (B[m[39;49m[K
+(B[m     24 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                                (B[m[39;49m[K
+(B[m     25 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 migration/1                                  (B[m[39;49m[K
+(B[m     26 root      20   0       0      0      0 S   0.0   0.0   0:00.10 ksoftirqd/1                                  (B[m[39;49m[K
+(B[m     28 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-events_highpri                  (B[m[39;49m[K
+(B[m     29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/2                                      (B[m[39;49m[K
+(B[m     30 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/2                                (B[m[39;49m[K
+(B[m     31 root      rt   0       0      0      0 S   0.0   0.0   0:00.33 migration/2                                  (B[m[39;49m[K
+(B[m     32 root      20   0       0      0      0 S   0.0   0.0   0:00.07 ksoftirqd/2                                  (B[m[39;49m[K
+(B[m     33 root      20   0       0      0      0 I   0.0   0.0   0:00.05 kworker/2:0-events                           (B[m[39;49m[K
+(B[m     34 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/2:0H-events_highpri                  (B[m[39;49m[K
+(B[m     35 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/3                                      (B[m[39;49m[K
+(B[m     36 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/3                                (B[m[39;49m[K
+(B[m     37 root      rt   0       0      0      0 S   0.0   0.0   0:00.32 migration/3                                  (B[m[39;49m[K
+(B[m     38 root      20   0       0      0      0 S   0.0   0.0   0:00.13 ksoftirqd/3                                  (B[m[39;49m[K
+(B[m     39 root      20   0       0      0      0 I   0.0   0.0   0:03.23 kworker/3:0-events                           (B[m[39;49m[K
+(B[m     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/3:0H-events_highpri                  (B[m[39;49m[K
+(B[m     41 root      20   0       0      0      0 I   0.0   0.0   0:00.03 kworker/u17:0-events_unbound                 (B[m[39;49m[K
+(B[m     43 root      20   0       0      0      0 I   0.0   0.0   0:00.02 kworker/u19:0-events_unbound                 (B[m[39;49m[K
+(B[m     45 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                                    (B[m[39;49m[K[?1l>[54;1H
+[?12l[?25h[K[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ top -b -n 1 > top.output.txt[1Poutput.txt-output.txt[C[C[C[C[C[C[C[C[C[C &
+[?2004l[1] 4260
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ ps aux ?[K| grep tio[K[Kop
+[?2004lgnome-r+     848  0.0  0.4 512808 16428 ?        Ssl  21:53   0:00 /usr/libexec/gnome-remote-desk[01;31m[Ktop[m[K-daemon --system
+admin       3619  0.0  0.2  39128 11764 ?        Ss   21:54   0:00 /snap/snapd-desk[01;31m[Ktop[m[K-integration/253/usr/bin/snapd-desk[01;31m[Ktop[m[K-integration
+admin       3679  0.0  0.7 429604 30356 ?        Sl   21:54   0:00 /snap/snapd-desk[01;31m[Ktop[m[K-integration/253/usr/bin/snapd-desk[01;31m[Ktop[m[K-integration
+admin       3699  0.0  0.3 710280 13984 ?        Ssl  21:54   0:00 /usr/libexec/xdg-desk[01;31m[Ktop[m[K-portal
+admin       3766  0.0  2.1 954732 87452 ?        Ssl  21:54   0:00 /usr/libexec/xdg-desk[01;31m[Ktop[m[K-portal-gnome
+admin       3821  0.0  0.6 426424 26188 ?        Ssl  21:54   0:00 /usr/libexec/xdg-desk[01;31m[Ktop[m[K-portal-gtk
+admin       4273  0.0  0.0  17812  2288 pts/2    S+   22:34   0:00 grep --color=auto [01;31m[Ktop[m[K
+[1]+  Done                    top -b -n 1 > top-output.txt
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ учше
+[?2004lучше: command not found
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-19 22:36:04+03:00 [COMMAND_EXIT_CODE="127"]

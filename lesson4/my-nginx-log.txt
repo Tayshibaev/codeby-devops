@@ -1,0 +1,70 @@
+Script started on 2025-04-19 23:52:49+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="116" LINES="53"]
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo systemctl stop nginx[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl stop nginx
+[A
+[?2004l[sudo] password for admin: 
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo systemctl disable nginx[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl disable nginx
+[A
+[?2004lSynchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install disable nginx
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo cp /etc/systemd/system/my-nginx.service ~/[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo cp /etc/systemd/system/my-nginx.service ~/
+[A
+[?2004l[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo systemctl daemon-reexec[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl daemon-reexec
+[A
+[?2004l[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo systemctl daemon-reload[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl daemon-reload
+[A
+[?2004l[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo systemctl enable my-nginx[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl enable my-nginx
+[A
+[?2004l[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msudo systemctl start my-nginx[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo systemctl start my-nginx
+[A
+[?2004l[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7msystemctl status my-nginx[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl status my-nginx
+[A
+[?2004l[?1h=[0;1;32m●[0m my-nginx.service - My Custom Nginx Service[m
+     Loaded: loaded (]8;;file://UbuntuGuiL4/etc/systemd/system/my-nginx.service/etc/systemd/system/my-nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sat 2025-04-19 23:47:40 MSK; 5min ago[m
+   Main PID: 10108 (nginx)[m
+      Tasks: 5 (limit: 4609)[m
+     Memory: 3.7M (peak: 4.2M)[m
+        CPU: 12ms[m
+     CGroup: /system.slice/my-nginx.service[m
+             ├─[0;38;5;245m10108 "nginx: master process /usr/sbin/nginx"[0m[m
+             ├─[0;38;5;245m10109 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10110 "nginx: worker process"[0m[m
+             ├─[0;38;5;245m10111 "nginx: worker process"[0m[m
+             └─[0;38;5;245m10112 "nginx: worker process"[0m[m
+[K[?1l>[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7mcurl http://localhost[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccurl http://localhost:8080
+[?2004l<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-19 23:53:33+03:00 [COMMAND_EXIT_CODE="0"]

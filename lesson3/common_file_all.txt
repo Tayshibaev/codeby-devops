@@ -1,1 +1,1 @@
-text branch_a
+text branch_c and text branch_b and text branch_a

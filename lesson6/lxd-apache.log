@@ -1,0 +1,49 @@
+Script started on 2025-05-31 19:28:16+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7mlxc exec my-apache -- bash[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clxc exec my-apache -- bash
+[A
+[?2004l[?2004h]0;root@my-apache: ~root@my-apache:~# [7msystemctl status apache2[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl status apache2
+[A
+[?2004l[?1h=[0;1;32m●[0m apache2.service - The Apache HTTP Server[m
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor prese[m[7m>[27m
+     Active: [0;1;32mactive (running)[0m since Sat 2025-05-31 16:25:56 UTC; 2min 38s ago[m
+       Docs: https://httpd.apache.org/docs/2.4/[m
+    Process: 198 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUC[m[7m>[27m
+   Main PID: 259 (apache2)[m
+      Tasks: 55 (limit: 4604)[m
+     Memory: 7.1M[m
+        CPU: 159ms[m
+     CGroup: /system.slice/apache2.service[m
+             ├─259 /usr/sbin/apache2 -k start[m
+             ├─261 /usr/sbin/apache2 -k start[m
+             └─262 /usr/sbin/apache2 -k start[m
+[m
+May 31 16:25:56 my-apache systemd[1]: Starting The Apache HTTP Server...[m
+May 31 16:25:56 my-apache systemd[1]: Started The Apache HTTP Server.[m
+[7mlines 1-16/16 (END)[27m[K[K[?1l>
+[?2004h]0;root@my-apache: ~root@my-apache:~# [7mss -tuln[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Css -tuln
+[A
+[?2004lNetid State  Recv-Q Send-Q                    Local Address:Port   Peer Address:Port                                  Process                                   
+udp   UNCONN 0      0                         127.0.0.53%lo:53          0.0.0.0:*                                                                               
+udp   UNCONN 0      0                   10.202.199.194%eth0:68          0.0.0.0:*                                                                               
+udp   UNCONN 0      0       [fe80::216:3eff:fe45:615e]%eth0:546            [::]:*                                                                               
+tcp   LISTEN 0      128                             0.0.0.0:22          0.0.0.0:*                                                                               
+tcp   LISTEN 0      4096                      127.0.0.53%lo:53          0.0.0.0:*                                                                               
+tcp   LISTEN 0      128                                [::]:22             [::]:*                                                                               
+tcp   LISTEN 0      511                                   *:80                *:*                                                                               
+[?2004h]0;root@my-apache: ~root@my-apache:~# exit
+[?2004lexit
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ [7mlxc list[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clxc list
+[A
+[?2004l+-----------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
+|   NAME    |  STATE  |         IPV4          |                     IPV6                      |   TYPE    | SNAPSHOTS |
++-----------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
+| my-apache | RUNNING | 10.202.199.194 (eth0) | fd42:3006:3ebf:3fee:216:3eff:fe45:615e (eth0) | CONTAINER | 0         |
++-----------+---------+-----------------------+-----------------------------------------------+-----------+-----------+
+[?2004h]0;admin@UbuntuGuiL4: ~[01;32madmin@UbuntuGuiL4[00m:[01;34m~[00m$ D[Kexit
+[?2004lexit
+
+Script done on 2025-05-31 19:29:38+03:00 [COMMAND_EXIT_CODE="0"]

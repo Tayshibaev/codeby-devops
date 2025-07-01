@@ -1,0 +1,31 @@
+---
+- name: Setup servers
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Ensure Python 3 is installed
+      apt:
+        name: python3
+        state: present
+        update_cache: yes
+
+    - name: Install packages
+      apt:
+        name: "{{ item }}"
+        state: present
+        update_cache: yes
+      loop:
+        - wget
+        - htop
+        - nginx
+
+    - name: Start nginx service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Show environment info
+      debug:
+        msg: "This host is in {{ ansible_environment }} environment"

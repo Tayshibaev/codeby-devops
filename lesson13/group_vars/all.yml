@@ -1,0 +1,25 @@
+---
+# MySQL variables
+mysql_packages:
+  - "{{ 'mariadb-server' if ansible_os_family == 'Debian' else 'mariadb-server' }}"
+  - "{{ 'mariadb-client' if ansible_os_family == 'Debian' else 'mariadb' }}"
+  - python3-mysqldb
+mysql_service: "{{ 'mariadb' if ansible_os_family == 'RedHat' else 'mysql' }}"
+
+# Apache variables
+apache_php_packages:
+  - apache2
+  - php
+  - php-mysql
+  - libapache2-mod-php
+apache_service: apache2
+apache_user: "{{ 'www-data' if ansible_os_family == 'Debian' else 'apache' }}"
+apache_modules:
+  - rewrite
+  - php7.4
+
+# WordPress variables
+wordpress_conf_file: wordpress.conf
+wp_db_name: wordpress
+wp_db_user: wordpress
+wp_db_password: securepassword

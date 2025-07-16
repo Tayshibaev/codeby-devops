@@ -1,0 +1,36 @@
+---
+- name: Install MySQL packages
+  package:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ mysql_packages }}"
+
+- name: Ensure MySQL is running and enabled
+  service:
+    name: "{{ mysql_service }}"
+    state: started
+    enabled: yes
+
+- name: Configure MySQL
+  template:
+    src: my.cnf.j2
+    dest: /etc/mysql/my.cnf
+  notify: restart mysql
+
+- name: Secure MySQL installation
+  command: mysql_secure_installation
+  args:
+    stdin: "{{ mysql_secure_installation_input }}"
+  when: mysql_secure_installation | bool
+
+- name: Create WordPress database
+  mysql_db:
+    name: "{{ wp_db_name }}"
+    state: present
+
+- name: Create WordPress database user
+  mysql_user:
+    name: "{{ wp_db_user }}"
+    password: "{{ wp_db_password }}"
+    priv: "{{ wp_db_name }}.*:ALL"
+    state: present

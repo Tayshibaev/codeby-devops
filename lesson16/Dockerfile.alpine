@@ -1,0 +1,8 @@
+FROM alpine:latest
+RUN apk add --no-cache nginx && \
+    mkdir -p /opt/www && \
+    mkdir -p /run/nginx
+RUN echo "<html><body><h1>Hello from Alpine Nginx!</h1></body></html>" > /opt/www/index.html
+COPY nginx.alpine.conf /etc/nginx/nginx.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,9 @@
+FROM debian:11
+RUN apt-get update && \
+    apt-get install -y nginx && \
+    mkdir -p /opt/www && \
+    rm -rf /var/lib/apt/lists/*
+RUN echo "<html><body><h1>Hello from Debian Nginx!</h1></body></html>" > /opt/www/index.html
+COPY nginx.debian.conf /etc/nginx/nginx.conf
+EXPOSE 80
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
